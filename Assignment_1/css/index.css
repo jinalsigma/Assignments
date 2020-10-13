@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html { background:#E9E9E9; font-size:15px; margin:0px;padding:0px; height:auto; font-family:'Roboto', sans-serif; }
+
+.main
+{
+    width:100%;
+    margin:0px;
+}
+.header
+{
+    float:left;
+    width:100%;
+    text-align:center;
+    background:#ffc720;
+}
+.container
+{
+    /*width:1280px;*/
+    margin:0px auto;
+}
+.container p.headings
+{
+    float:left;
+    width:100%;
+    text-align:center;
+    margin:10px 0px;
+}
+.container ul
+{
+    display:inline;
+    margin:10px 0px;
+    padding:0px;
+    float:left;
+    width:100%;
+}
+.container ul li
+{
+    float:left;
+    width:30%;
+    margin-left: 2.5%;
+    list-style:none;
+}
+.container ul li.last
+{
+    margin:0px !important;
+}
+.container ul li img
+{
+    width:60%;
+    margin-left: 25%;
+    float: left;
+}
+.container ul li p
+{
+    float:left;
+    width:100%;
+    text-align:center;
+    margin-left: 5%;
+}
+.container ul li p a
+{
+    color:#31804C;
+    text-decoration:none;
+}
+
+.footer
+{
+    float:left;
+    width:100%;
+    text-align:center;
+    background:#ffc720;
+}
+
+@media only screen and (max-width:992px){
+    img { width:100%;}
+    .container {width:100%;}
+    .container ul li { width:48%;margin:0;}
+}
+@media only screen and (max-width:767px){
+    img { width:100%;}
+    .container {width:100%;}
+    .container ul li { width:100%;}
+}
+/**{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+/*body*/
+/*{*/
+    /*background-color: #E9E9E9;*/
+/*}*/
+/*img*/
+/*{*/
+    /*width: 100%;*/
+/*}*/
+/*.heading1 img*/
+/*{*/
+    /*margin-top: -1px;*/
+/*}*/
+/*.products div img*/
+/*{*/
+    /*width:20%;*/
+    /*float:left;*/
+    /*margin-left: 10%;*/
+/*}*/
+
+/*.labels1 p,.labels2 p,.labels3 p*/
+/*{*/
+    /*float: left;*/
+    /*text-align: center;*/
+    /*width:236px;*/
+    /*margin-bottom: 2%;*/
+    /*margin-left: 11%;*/
+    /*color: #31804C;*/
+/*}*/
+/*.labels1,.labels2.labels3*/
+/*{*/
+
+    /*text-align: center;*/
+/*}*/
+/*@media only screen and (max-width: 767px)*/
+/*{*/
+    /*.labels1 p,.labels2 p,.labels3 p*/
+    /*{*/
+        /*margin-left: 7%;*/
+    /*}*/
+/*}*/
