@@ -1,0 +1,48 @@
+.colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+
+}
+#formvalidation{
+    height: 30px;
+    margin-bottom: 20px;
+    color: red;
+    font-weight: bold
+
+}
+#reviewbutton
+{
+    background-color: #000;
+    color:#fff;
+    padding:18px;
+    font-size: 18px;
+    border-radius:9px;
+    text-decoration: none;
+    width: 100%;
+}
+#details
+{
+    font-size: 18px;
+}
+.togglePassword
+{
+    margin-left: -30px;
+    cursor: pointer;
+    position: absolute;
+    right: 34px;
+    top: 13px;
+    font-size: 20px;
+}
+#toggle, #toggle1
+{
+    display: none;
+}
+
+@media only screen and (max-width: 414px) {
+    #toggle, #toggle1
+    {
+        display: block;
+    }
+}
