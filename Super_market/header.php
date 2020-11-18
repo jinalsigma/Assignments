@@ -14,7 +14,7 @@ $fname=$row['UserFirstName'];
 $lname=$row['UserLastName'];
 if (!isset($uid))
 {
-    echo "<script>alert('Please Login first !');</script>";
+    echo "<script>alert('Please Login first!');</script>";
     echo "<script>document.location = 'login.php';</script>";
 }
 
